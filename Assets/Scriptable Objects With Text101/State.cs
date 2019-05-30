@@ -11,6 +11,8 @@ public class State : ScriptableObject
     [SerializeField]
     State[] nextStates; //Declaring array of type State 
 
+    int[] list;
+
     public string GetStateStory() {
 
         return storyText;
@@ -19,10 +21,10 @@ public class State : ScriptableObject
      
     public State[] GetNextStates()  //array method
     { 
-
         return nextStates; // reutrn array to arry method
     }
 
+    
 
 
 
